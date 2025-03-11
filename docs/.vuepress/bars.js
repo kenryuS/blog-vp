@@ -5,7 +5,7 @@ const blogSidebarEntriesGenerator = blogEntries.blogSidebar(
 );
 const blogYears = ["2025"];
 
-const blogSidebarEntries = blogYears.map(blogSidebarEntriesGenerator);
+const blogSidebarEntries = [{ text: 'ブログ ホーム', link: '/blog/README.md'}].concat(blogYears.map(blogSidebarEntriesGenerator));
 
 const nav = [
     {
@@ -26,7 +26,7 @@ const side = {
     "/about-author/": [
         {
             text: "About",
-            children: ["README.md", "contact.md"],
+            children: ["README.md", "as-programmer.md", "contact.md"],
         },
     ],
     "/projects/": "heading",

@@ -1,5 +1,7 @@
 const entries = {
-    2025: [],
+    2025: [
+        "new-blog.md",
+    ],
 };
 
 const blogSidebar = (entries) => {
@@ -7,6 +9,7 @@ const blogSidebar = (entries) => {
         return {
             text: year,
             collapsible: true,
+	    prefix: year + '/',
             children: entries[year],
         };
     };

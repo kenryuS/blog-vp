@@ -1,6 +1,7 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default";
 import { defineUserConfig } from "vuepress";
+import { seoPlugin } from "@vuepress/plugin-seo";
 import bars from "./bars";
 import localeConf from "./locale-conf";
 
@@ -16,12 +17,17 @@ export default defineUserConfig({
         sidebar: bars.side,
     }),
     locales: {
-        '/': {
-	    lang: 'ja-JP',
-            title: "kenryuS ブログ",
-            description: "kenryuSが作る本当に「最後」のブログサイト。",
-	},
+        "/": {
+            lang: "ja-JP",
+            title: "kenryuS",
+            description: "kenryuSが作る本当に「最後」のウエブサイト。",
+        },
     },
-    head: [["link", { rel: "icon", href: "/logo.png" }]],
-    permalinkPattern: ":year-:month-:day-:slug",
+    base: "/blog-vp/",
+    head: [["link", { rel: "icon", href: "/blog-vp/logo.png" }]],
+    plugins: [
+        seoPlugin({
+            hostname: "kenryus.github.io/blog-vp",
+        }),
+    ],
 });

@@ -1,7 +1,7 @@
 ---
 permalink: null
 date: "2025-03-10"
-lastUpdated: true
+description: 連絡先一覧
 ---
 
 # 連絡先
