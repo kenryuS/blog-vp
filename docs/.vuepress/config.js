@@ -1,6 +1,7 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default";
 import { seoPlugin } from "@vuepress/plugin-seo";
+import { sitemapPlugin } from "@vuepress/plugin-sitemap";
 import { slimsearchPlugin } from "@vuepress/plugin-slimsearch";
 import { copyrightPlugin } from "@vuepress/plugin-copyright";
 import { iconPlugin } from "@vuepress/plugin-icon";
@@ -39,11 +40,17 @@ export default defineUserConfig({
         seoPlugin({
             hostname: "kenryus.github.io/blog-vp",
         }),
+        sitemapPlugin({
+            hostname: "kenryus.github.io/blog-vp",
+            devServer: true,
+            changefreq: "daily"
+        }),
         slimsearchPlugin({
             indexContent: true,
         }),
         copyrightPlugin({
             author: "Kenryu Shibata",
+            license: "CC-BY-NC-SA-4.0",
             canonical: "https://kenryus.github.io/blog-vp",
             triggerLength: 50,
         }),

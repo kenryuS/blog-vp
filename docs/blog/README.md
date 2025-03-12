@@ -2,6 +2,7 @@
 lang: ja-JP
 title: ブログ
 description: kenryuS のブログ
+layout: DefaultLayout
 permalink: null
 ---
 

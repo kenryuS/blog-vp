@@ -19,6 +19,7 @@
     "@vuepress/plugin-markdown-math": "^2.0.0-rc.83",
     "@vuepress/plugin-markdown-stylize": "^2.0.0-rc.83",
     "@vuepress/plugin-seo": "2.0.0-rc.3",
+    "@vuepress/plugin-sitemap": "^2.0.0-rc.84",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.83",
     "@vuepress/plugin-umami-analytics": "^2.0.0-rc.83",
     "@vuepress/theme-default": "2.0.0-rc.82",

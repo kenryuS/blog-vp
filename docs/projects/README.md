@@ -1,6 +1,7 @@
 ---
 title: プロジェクト
 description: kenryuSがやっているプロジェクト達
+layout: DefaultLayout
 permalink: null
 ---
 

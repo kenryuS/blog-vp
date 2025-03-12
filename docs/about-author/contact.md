@@ -2,6 +2,7 @@
 permalink: null
 date: "2025-03-10"
 description: 連絡先一覧
+layout: DefaultLayout
 ---
 
 # 連絡先

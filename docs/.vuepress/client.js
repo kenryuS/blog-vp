@@ -1,5 +1,6 @@
 import { defineClientConfig } from 'vuepress/client';
 import BlogLayout from "./layouts/blog.vue";
+import DefaultLayout from "./layouts/default.vue";
 
 export default defineClientConfig({
     enhance({ app, router, siteData}) {},
@@ -7,5 +8,6 @@ export default defineClientConfig({
     rootComponents: [],
     layouts: {
         BlogLayout,
+        DefaultLayout,
     },
 });

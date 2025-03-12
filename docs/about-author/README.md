@@ -2,6 +2,7 @@
 permalink: null
 date: 2025-03-10
 description: プロフィール
+layout: DefaultLayout
 ---
 
 # 筆者について

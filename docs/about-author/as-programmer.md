@@ -1,6 +1,7 @@
 ---
 permalink: null
 description: プログラマープロフィール
+layout: DefaultLayout
 ---
 
 # プログラマーとしてのkenryuS
@@ -94,4 +95,3 @@ AIにレファレンスコードやドキュメンテーションを書かせて
 * GNU Cash - 金銭管理ソフト
 * (lua)LaTeX - レポート執筆の友
 * ollama - 自前でAIをホスティングしている
-

@@ -2,6 +2,7 @@
 date: 2025-03-11
 description: お知らせ
 comment: true
+copy: true
 layout: BlogLayout
 tags:
     - ウエブサイト
