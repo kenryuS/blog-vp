@@ -13,8 +13,8 @@
         pname = "blog-vp";
         version = "0.0.1";
         buildInputs = with pkgs; [
-          nodejs_22
-          nodePackages_latest.pnpm
+          nodejs_20
+          nodePackages.pnpm
         ];
         nativeBuildInputs = buildInputs;
       in

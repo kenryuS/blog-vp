@@ -1,6 +1,8 @@
 ---
 date: 2025-03-11
 description: お知らせ
+comment: true
+layout: BlogLayout
 tags:
     - ウエブサイト
     - 更新
