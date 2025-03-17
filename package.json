@@ -12,6 +12,7 @@
   "packageManager": "pnpm@10.5.2",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/helper": "2.0.0-rc.3",
     "@vuepress/plugin-blog": "^2.0.0-rc.83",
     "@vuepress/plugin-comment": "^2.0.0-rc.83",
     "@vuepress/plugin-copyright": "^2.0.0-rc.83",
