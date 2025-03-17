@@ -3,9 +3,18 @@ lang: ja-JP
 title: ブログ
 description: kenryuS のブログ
 layout: DefaultLayout
-permalink: null
+next: false
+prev: false
 ---
 
-# ブログ
+# ::material-symbols:book-2:: ブログ
 
 更新頻度はあまり高くない。
+
+## 最近の投稿
+
+<LatestPosts :take="null" />
+
+<script setup>
+import LatestPosts from "../../../components/latestPosts.vue";
+</script>

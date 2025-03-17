@@ -2,7 +2,6 @@
 title: プロジェクト
 description: kenryuSがやっているプロジェクト達
 layout: DefaultLayout
-permalink: null
 ---
 
 # プロジェクト
@@ -11,14 +10,14 @@ permalink: null
 
 [[toc]]
 
-## 開発中
+## ::mingcute:braces-line /lightgreen vertical-align=middle:: 開発中
 
 ### 八五式電子観測儀
 
 現在開発中のクロスプラットフォーム艦これ補助専用ブラウザ。
 [七四式](https://github.com/dais-k/ElectronicObserver)がWindows専用でWine上で動作させるのが難しいためQt6で新たに開発しています。
 
-## プロジェクト保存・保守
+## ::mingcute:save-2-line /lightblue vertical-align=middle:: プロジェクト保存・保守
 
 ### Docker Guacamole RE(Revival)
 
@@ -29,7 +28,7 @@ permalink: null
 * [ソースコード](https://github.com/kenryuS/docker-guacamole-re)
 * [Docker Hub](https://hub.docker.com/r/kenryus/docker-guacamole)
 
-## 開発停滞中
+## ::mingcute:alert-fill /yellow vertical-align=middle:: 開発停滞中
 
 ### pass_gen
 
@@ -50,7 +49,7 @@ permalink: null
 リンク：
 * [ソースコード](https://github.com/kenryuS/Touhou-DanmakuReverseEng)
 
-## 開発・保守停止
+## ::mingcute:alert-octagon-fill /red vertical-align=middle:: 開発・保守停止
 
 ### Ghost Shooter(Alpha,Beta)
 
@@ -59,3 +58,21 @@ permalink: null
 アルファ版バイナリ(Linuxのみ対応): [ダウンロード](https://github.com/kenryuS/Ghost_Shooter_Alpha/tree/alpha_builds)
 
 [ベータ版](https://github.com/kenryuS/Ghost_Shooter_beta/tree/main)で用いたUnityバージョン: `2021.3.25f1`
+
+### 一代目ブログ
+
+Next.js で作成されたファイルベースのブログ。
+極めて単純だが、微妙なページナビゲーションや変更・拡張に弱いため放棄。
+
+リンク：
+* [レポジトリ(アーカイブ済)](https://github.com/kenryuS/website-old)
+* [オフライン版(ZIM形式)](https://git.kenryu.us/kenryuS/my-web-archive/raw/branch/main/kenryuS-blog-1st-gen_2025-03.zim)
+
+### 二代目ブログ
+
+Nuxt で作成されたPostgressql使用のブログ。
+タグ検索機能やオンデマンドでサイトから記事を直接管理できるUIを持っていた。
+ページの動作がもっさりしており、レスポンシブデザインもよろしくなかった。
+
+リンク：
+* [レポジトリ](https://github.com/kenryuS/blog)

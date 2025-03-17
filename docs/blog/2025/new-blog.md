@@ -4,10 +4,14 @@ description: お知らせ
 comment: true
 copy: true
 layout: BlogLayout
+title: 新しいウェブサイトを立ち上げました。
 tags:
     - ウエブサイト
     - 更新
     - お知らせ
+    - website
+    - update
+    - information
 ---
 
 # 新しいウェブサイトを立ち上げました。

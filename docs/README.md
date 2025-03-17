@@ -2,8 +2,7 @@
 home: true
 title: ホーム
 description: kenryuSのホームページ
-tagline: kenryuSが作る本当に「最後」のウェブサイト。
-permalink: null
+tagline: kenryuSが作る本当に「最後」の個人ウェブサイト。
 actions:
     - text: ブログ
       link: /blog/
@@ -15,4 +14,18 @@ footer: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/
 footerHtml: true
 ---
 
-### ただの(?)帰国子女プログラマー。
+<span id="top-page-comment">ただの(?)帰国子女プログラマー。</span>
+
+## 最新の投稿
+
+<LatestPosts :take="3" />
+
+<script setup>
+import LatestPosts from "../../components/latestPosts.vue";
+</script>
+
+<style>
+#top-page-comment {
+    font-size: x-large;
+}
+</style>

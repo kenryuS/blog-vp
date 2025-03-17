@@ -4,13 +4,13 @@ description: プログラマープロフィール
 layout: DefaultLayout
 ---
 
-# プログラマーとしてのkenryuS
+# ::material-symbols:code-blocks:: プログラマーとしてのkenryuS
 
 今年でプログラミング8年目となる。
 ウェブ開発から組み込みシステムまで幅広くやってます。
 AIにレファレンスコードやドキュメンテーションを書かせても、ソースコードは書かせていません。すべて手打ちです。
 
-## 年表
+## ::tabler:timeline:: 年表
 
 ::: details 長いので折りたたんだ
 
@@ -59,23 +59,41 @@ AIにレファレンスコードやドキュメンテーションを書かせて
 
 :::
 
-## 開発環境
+## ::tabler:code:: 開発環境
 
-### メイン（デスクトップ）
+### ::tabler:device-desktop:: メイン（デスクトップ）
 
-* OS: NixOS
+* OS: NixOS ::devicon:nixos =32 vertical-align=middle::
 * CPU: Intel core i7-10700K
 * RAM: 32GB(16GB x2) DDR4
 * GPU: NVIDIA GeForce RTX 2080 Ti Rev.
 * SSD: 1TB NVMe
 * HDD: 1TB SATA
 
-### サブ（HP製ノートPC）
+### ::tabler:device-laptop:: サブ（HP製ノートPC）
 
-* OS: Arch Linux
+* OS: Arch Linux ::devicon:archlinux =32 vertical-align=middle::
 * CPU: AMD Ryzen 5 5500U
 * RAM: 16GB DDR4
 * SSD: 512GB NVMe
+
+## ::tabler:server:: サーバー
+
+::: tabs
+
+@tab メイン
+
+ハードウェア：Raspberry Pi 5
+
+サービス：searxng, gitea, owncloud, jellyfin, kiwix, penpot, portainer, cockpit
+
+@tab 踏み台
+
+ハードウェア：Sakura VPS 512MB RAM
+
+サービス：PiHole, nginx proxy
+
+:::
 
 ## 言語
 

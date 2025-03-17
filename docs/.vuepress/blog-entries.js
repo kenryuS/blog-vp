@@ -1,5 +1,6 @@
 const entries = {
     2025: [
+        "blog-update-1.md",
         "new-blog.md",
     ],
 };

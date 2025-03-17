@@ -1,6 +1,6 @@
 # Blog in VuePress
 
-After I made website for one of my club, I realized that I wasted time on not only that site, but also on [my blog site](https://github.com/kenryuS/blog).
+After I made website for one of my club, I realized that I wasted time on not only that site, but also on [my previous blog site](https://github.com/kenryuS/blog).
 
 After all, I didn't need any of these bs:
 
